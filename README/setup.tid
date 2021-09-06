@@ -1,0 +1,16 @@
+tags:
+title: $:/plugins/breakzplatform/github-comments/README/setup
+type: text/vnd.tiddlywiki
+
+! Setup
+
+Before you using the plugin, you need to configure [utterances|https://utteranc.es/] to work with your GitHub repository.
+
+* Make sure the repo is public, otherwise your readers will not be able to view the issues/comments.
+* Make sure the [utterances app|https://github.com/apps/utterances] is installed on the repo, otherwise users will not be able to post comments.
+* If your repo is a fork, navigate to its settings tab and confirm the issues feature is turned on.
+* Fill out the repo and website URL and add to the [[settings of the plugin|$:/plugins/breakzplatform/github-comments/settings/settings]] (next tab)
+* Complete the setup and refresh your wiki
+* Profit!
+
+//Select the next tab to continue.//

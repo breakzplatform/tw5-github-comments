@@ -1,0 +1,18 @@
+tags: $:/tags/ControlPanel
+title: $:/plugins/breakzplatform/github-comments/settings/settings
+type: text/vnd.tiddlywiki
+caption: Github comments
+
+<$list filter="[[$:/ControlPanel]!is[current]]">
+    Configuration for the plugin can be done from within the Github comments tab in the [[ControlPanel|$:/ControlPanel]] as well.
+</$list>
+<$list filter="[[$:/ControlPanel]is[current]]">
+    Configuration for the [[Github comments plugin|$:/plugins/breakzplatform/github-comments]].
+</$list>
+
+|[[GitHub Repository|$:/config/breakzplatform/github-comments/repo]] |<$edit-text tiddler="$:/config/breakzplatform/github-comments/repo" default="" tag="input"/><br/>//Use ''user/repo'' format. For example ''breakzplatform/tw5-github-comments'' // |
+|[[Website's URL|$:/config/breakzplatform/github-comments/url]] |<$edit-text tiddler="$:/config/breakzplatform/github-comments/url" default="" tag="input"/><br/>//For example ''breakzplatform.github.io'' or ''joseli.to/pt''. // |
+|[[Theme|$:/config/breakzplatform/github-comments/theme]]|<$edit-text tiddler="$:/config/breakzplatform/github-comments/theme" default="" tag="input"/> |
+|[[Filter|$:/config/breakzplatform/github-comments/filter]]<blockquote>Which tiddlers would you like to comment on?</blockquote> |<$edit-text tiddler="$:/config/breakzplatform/github-comments/filter" default="" tag="input"/> |
+|[[Show label text|$:/config/breakzplatform/github-comments/label-show]]|<$edit-text tiddler="$:/config/breakzplatform/github-comments/label-show" default="" tag="input"/> |
+|[[Hide label text|$:/config/breakzplatform/github-comments/label-hide]]|<$edit-text tiddler="$:/config/breakzplatform/github-comments/label-hide" default="" tag="input"/> |

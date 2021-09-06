@@ -1,0 +1,13 @@
+tags:
+title: $:/plugins/breakzplatform/github-comments/README/FAQ
+type: text/vnd.tiddlywiki
+
+! Frequently asked questions
+
+!! Can I use on "read only" on wiki?
+
+~GitHub is responsible for storing and managing comments, there is nothing to store in ~TiddlyWiki other than settings.
+
+!! Will I be notified when a new comment is posted?
+
+Every comment will be added to a issue on your ~GitHub repo. Learn more about [[GitHub notifications|https://docs.github.com/pt/account-and-profile/managing-subscriptions-and-notifications-on-github/setting-up-notifications/configuring-notifications]] to be notified when a new comment is added on a issue.

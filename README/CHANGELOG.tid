@@ -1,0 +1,9 @@
+tags:
+title: $:/plugins/breakzplatform/github-comments/README/CHANGELOG
+type: text/vnd.tiddlywiki
+
+I'm trying to follow the rules of [[Semantic Versioning|https://semver.org/]].
+
+!! 0.0.1
+
+* First public release
