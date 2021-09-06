@@ -7,7 +7,7 @@ type: text/vnd.tiddlywiki
 Use this plugin to give your visitors the opportunity to comment on your
 tiddlers without changing the wiki itself. See the bottom of this tiddler for example.
 
-* https://gitlab.com/breakzplatform/ (main repository, ''please add a star if you like the plugin'')
+* https://github.com/breakzplatform/tw5-github-comments (main repository, ''please add a star if you like the plugin'')
 
 This plugin uses [[utterances|https://utteranc.es/]], a lightweight comments widget built on ~GitHub issues.
 

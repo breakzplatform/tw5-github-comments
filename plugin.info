@@ -4,7 +4,7 @@
 	"author": "breakzplatform",
 	"version": "0.0.1",
 	"core-version": ">=5.1.23",
-	"source": "https://gitlab.com/breakzplatform/tw5-github-comments",
+	"source": "https://github.com/breakzplatform/tw5-github-comments",
 	"plugin-type": "plugin",
 	"list": "README/README README/setup settings/settings README/FAQ README/CHANGELOG"
 }
