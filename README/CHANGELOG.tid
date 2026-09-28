@@ -4,6 +4,14 @@ type: text/vnd.tiddlywiki
 
 I'm trying to follow the rules of [[Semantic Versioning|https://semver.org/]].
 
+!! 0.1.0
+
+* Add [[giscus|https://giscus.app/]] (~GitHub Discussions) as the recommended service. utterances is still supported and stays in use until the giscus fields are filled in, so existing wikis keep working after the update
+* Add the service setting (automatic, giscus or utterances)
+* Replace the DOM handling of the macro with the `<$github-comments>` widget. The thread no longer reloads while the tiddler body is edited, and titles with quotes no longer break it
+* Add the `github-comments-term` field to keep a thread after renaming a tiddler
+* Translate common theme names between the two services
+
 !! 0.0.1
 
 * First public release

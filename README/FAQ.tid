@@ -10,4 +10,20 @@ type: text/vnd.tiddlywiki
 
 !! Will I be notified when a new comment is posted?
 
-Every comment will be added to a issue on your ~GitHub repo. Learn more about [[GitHub notifications|https://docs.github.com/pt/account-and-profile/managing-subscriptions-and-notifications-on-github/setting-up-notifications/configuring-notifications]] to be notified when a new comment is added on a issue.
+Every comment will be added to a discussion (giscus) or an issue (utterances) on your ~GitHub repo. Learn more about [[GitHub notifications|https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/setting-up-notifications/configuring-notifications]] to be notified when a new comment is added.
+
+!! I updated from 0.0.x. Do I have to change anything?
+
+No. While the giscus fields are empty, the plugin keeps using utterances with the same settings and the same threads.
+
+!! How do I move my existing comments from utterances to giscus?
+
+Both services look up the thread by the same title, `[website URL] tiddler title`. Convert the issues created by utterances into discussions (on each issue, ''Convert to discussion'', choosing the category configured for giscus), then fill in the giscus fields. giscus will find the converted threads.
+
+!! What happens to the comments when I rename a tiddler?
+
+The thread is looked up by the tiddler title, so a renamed tiddler starts a new thread. To keep the old one, add a `github-comments-term` field to the tiddler with its previous title.
+
+!! Can I place the comments somewhere else?
+
+Use the widget in any template: `<$github-comments tiddler=<<currentTiddler>>/>`. The `<<github-comments>>` macro from 0.0.x still works.

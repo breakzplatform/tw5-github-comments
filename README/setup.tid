@@ -4,13 +4,26 @@ type: text/vnd.tiddlywiki
 
 ! Setup
 
-Before you using the plugin, you need to configure [utterances|https://utteranc.es/] to work with your GitHub repository.
+The plugin works with two services. Both store the comments in a public ~GitHub repository.
+
+* [[giscus|https://giscus.app/]] (recommended) keeps the comments in ~GitHub Discussions and supports reactions, lazy loading and translations.
+* [[utterances|https://utteranc.es/]] keeps the comments in ~GitHub Issues. Wikis configured before version 0.1.0 keep using it.
+
+!! giscus
+
+* Make sure the repo is public, otherwise your readers will not be able to view the discussions.
+* Make sure the [[giscus app|https://github.com/apps/giscus]] is installed on the repo.
+* Turn on the Discussions feature in the repo settings.
+* Open [[giscus.app|https://giscus.app/]], enter the repo and pick a discussion category (''Announcements'' is recommended).
+* Copy ''data-repo-id'', ''data-category'' and ''data-category-id'' from the generated script into the [[settings of the plugin|$:/plugins/breakzplatform/github-comments/settings/settings]], along with the repo and the website URL.
+* Refresh your wiki.
+
+!! utterances
 
 * Make sure the repo is public, otherwise your readers will not be able to view the issues/comments.
-* Make sure the [utterances app|https://github.com/apps/utterances] is installed on the repo, otherwise users will not be able to post comments.
+* Make sure the [[utterances app|https://github.com/apps/utterances]] is installed on the repo, otherwise users will not be able to post comments.
 * If your repo is a fork, navigate to its settings tab and confirm the issues feature is turned on.
-* Fill out the repo and website URL and add to the [[settings of the plugin|$:/plugins/breakzplatform/github-comments/settings/settings]] (next tab)
-* Complete the setup and refresh your wiki
-* Profit!
+* Fill out the repo and website URL in the [[settings of the plugin|$:/plugins/breakzplatform/github-comments/settings/settings]] and leave the giscus fields empty (or set the service to ''utterances'').
+* Refresh your wiki.
 
 //Select the next tab to continue.//

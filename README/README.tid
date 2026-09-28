@@ -9,7 +9,7 @@ tiddlers without changing the wiki itself. See the bottom of this tiddler for ex
 
 * https://github.com/breakzplatform/tw5-github-comments (main repository, ''please add a star if you like the plugin'')
 
-This plugin uses [[utterances|https://utteranc.es/]], a lightweight comments widget built on ~GitHub issues.
+The comments are stored on ~GitHub, using [[giscus|https://giscus.app/]] (~GitHub Discussions, recommended) or [[utterances|https://utteranc.es/]] (~GitHub Issues).
 
 !! Installation instructions
 
