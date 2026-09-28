@@ -4,7 +4,7 @@ type: text/vnd.tiddlywiki
 
 I'm trying to follow the rules of [[Semantic Versioning|https://semver.org/]].
 
-!! 0.1.0
+!! 1.0.0
 
 * Add [[giscus|https://giscus.app/]] (~GitHub Discussions) as the recommended service. utterances is still supported and stays in use until the giscus fields are filled in, so existing wikis keep working after the update
 * Add the service setting (automatic, giscus or utterances)
