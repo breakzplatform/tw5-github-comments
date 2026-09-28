@@ -11,6 +11,9 @@ I'm trying to follow the rules of [[Semantic Versioning|https://semver.org/]].
 * Replace the DOM handling of the macro with the `<$github-comments>` widget. The thread no longer reloads while the tiddler body is edited, and titles with quotes no longer break it
 * Add the `github-comments-term` field to keep a thread after renaming a tiddler
 * Translate common theme names between the two services
+* Add strict title matching for giscus, on by default
+* Warn when only one of the giscus IDs is filled in, instead of silently falling back to utterances
+* Setting changes apply the next time the comments are opened, instead of reloading the thread on every keystroke
 
 !! 0.0.1
 

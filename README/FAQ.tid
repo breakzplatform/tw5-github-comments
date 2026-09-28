@@ -18,11 +18,17 @@ No. While the giscus fields are empty, the plugin keeps using utterances with th
 
 !! How do I move my existing comments from utterances to giscus?
 
-Both services look up the thread by the same title, `[website URL] tiddler title`. Convert the issues created by utterances into discussions (on each issue, ''Convert to discussion'', choosing the category configured for giscus), then fill in the giscus fields. giscus will find the converted threads.
+Both services look up the thread by the same title, `[website URL] tiddler title`. Convert the issues created by utterances into discussions (on each issue, ''Convert to discussion'', choosing the category configured for giscus), fill in the giscus fields and set ''Strict title matching'' to ''No''. giscus will find the converted threads.
+
+With strict matching off, giscus looks threads up by a title search, so a tiddler can land on the thread of another tiddler whose title contains its own (''Bug'' and ''Bug report''). Strict matching avoids that, but only finds threads created by giscus itself.
 
 !! What happens to the comments when I rename a tiddler?
 
 The thread is looked up by the tiddler title, so a renamed tiddler starts a new thread. To keep the old one, add a `github-comments-term` field to the tiddler with its previous title.
+
+!! Can I show the comments of several tiddlers at once?
+
+No. giscus supports a single thread per page, so the plugin opens the comments of one tiddler at a time.
 
 !! Can I place the comments somewhere else?
 
