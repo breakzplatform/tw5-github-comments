@@ -15,3 +15,8 @@ type: text/css
 .gh-comments-wrapper {
 	min-height: 100px;
 }
+
+/* Templates customized for 0.0.x still render an empty wrapper next to the widget */
+.gh-comments-wrapper:empty {
+	min-height: 0;
+}
