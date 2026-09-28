@@ -15,7 +15,7 @@ Nothing to change: while the giscus fields are empty, the plugin keeps using utt
 ## Installation instructions
 
 ### Drag'n'drop
-- Open the demo TiddlyWiki: https://tw5-github-comments.joseli.to
+- Open the demo TiddlyWiki: https://tw5-github-comments.joselito.dev
 - Drag-n-drop the plugin tiddler in to your wiki
 
 ### Copy to a Node.js based wiki
