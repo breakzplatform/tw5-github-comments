@@ -7,7 +7,7 @@ type: text/vnd.tiddlywiki
 The plugin works with two services. Both store the comments in a public ~GitHub repository.
 
 * [[giscus|https://giscus.app/]] (recommended) keeps the comments in ~GitHub Discussions and supports reactions, lazy loading and translations.
-* [[utterances|https://utteranc.es/]] keeps the comments in ~GitHub Issues. Wikis configured before version 0.1.0 keep using it.
+* [[utterances|https://utteranc.es/]] keeps the comments in ~GitHub Issues. Wikis configured before version 1.0.0 keep using it.
 
 !! giscus
 
