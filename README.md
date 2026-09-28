@@ -4,7 +4,7 @@ Use this plugin to give your visitors the opportunity to comment on your tiddler
 The comments are stored on GitHub, using one of two services:
 
 - [giscus](https://giscus.app/) (recommended): GitHub Discussions, with reactions, lazy loading and translations
-- [utterances](https://utteranc.es/): GitHub Issues. Wikis configured before 0.1.0 keep using it after the update, with no changes
+- [utterances](https://utteranc.es/): GitHub Issues. Wikis configured before 1.0.0 keep using it after the update, with no changes
 
 Setup steps for both are in the plugin's *Setup* tab.
 
@@ -24,3 +24,7 @@ Nothing to change: while the giscus fields are empty, the plugin keeps using utt
 
 ## Special thanks
 This plugin is heavily inspired and based on [@bimlas](https://github.com/bimlas/tw5-disqus)'s work on the [tw5-disqus plugin](https://github.com/bimlas/tw5-disqus). If you may visit his repo and give a star.
+
+## License
+
+[MIT](LICENSE)
