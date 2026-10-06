@@ -11,7 +11,7 @@ Demo: https://tw5-github-comments.joselito.dev
 
 Setup steps for both services are in the plugin's *Setup* tab.
 
-Sibling of [tw5-bluesky-comments](https://github.com/breakzplatform/tw5-bluesky-comments), which shows the replies to a Bluesky post as comments.
+Sibling of [tw5-bluesky-comments](https://github.com/breakzplatform/tw5-bluesky-comments) and [tw5-mastodon-comments](https://github.com/breakzplatform/tw5-mastodon-comments), which show the replies to a Bluesky or Mastodon post as comments.
 
 ## Installation instructions
 
