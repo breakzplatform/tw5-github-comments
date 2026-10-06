@@ -1,13 +1,13 @@
 tags: $:/tags/ControlPanel
 title: $:/plugins/breakzplatform/github-comments/settings/settings
 type: text/vnd.tiddlywiki
-caption: Github comments
+caption: GitHub comments
 
 <$list filter="[[$:/ControlPanel]!is[current]]">
-    Configuration for the plugin can be done from within the Github comments tab in the [[ControlPanel|$:/ControlPanel]] as well.
+    Configuration for the plugin can be done from within the GitHub comments tab in the [[ControlPanel|$:/ControlPanel]] as well.
 </$list>
 <$list filter="[[$:/ControlPanel]is[current]]">
-    Configuration for the [[Github comments plugin|$:/plugins/breakzplatform/github-comments]].
+    Configuration for the [[GitHub comments plugin|$:/plugins/breakzplatform/github-comments]].
 </$list>
 
 |[[Service|$:/config/breakzplatform/github-comments/provider]] |<$select tiddler="$:/config/breakzplatform/github-comments/provider" default="auto"><option value="auto">Automatic</option><option value="giscus">giscus (GitHub Discussions)</option><option value="utterances">utterances (GitHub Issues)</option></$select><br/>//''Automatic'' uses giscus when its repository and category IDs are filled in, and utterances otherwise.// |
