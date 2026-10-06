@@ -51,6 +51,7 @@ Display GitHub comments for a tiddler, powered by giscus or utterances
 
 		var wrapper = this.document.createElement("div");
 		wrapper.className = "gh-comments-wrapper";
+		wrapper.setAttribute("data-tiddler-title", this.tiddlerTitle);
 		parent.insertBefore(wrapper, nextSibling);
 		this.domNodes.push(wrapper);
 
@@ -75,13 +76,6 @@ Display GitHub comments for a tiddler, powered by giscus or utterances
 			wrapper.appendChild(container);
 		}
 		wrapper.appendChild(script);
-
-		$tw.utils.nextTick(function () {
-			$tw.rootWidget.dispatchEvent({
-				type: "github-comments-did-insert-element",
-				target: wrapper
-			});
-		});
 	};
 
 	GitHubCommentsWidget.prototype.execute = function () {
