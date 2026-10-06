@@ -4,6 +4,12 @@ type: text/vnd.tiddlywiki
 
 I'm trying to follow the rules of [[Semantic Versioning|https://semver.org/]].
 
+!! 2.0.0
+
+* Rename the Control Panel tab to "GitHub comments"
+* Rewrite the README and the demo intro to match the sibling plugin, [[Bluesky comments|https://github.com/breakzplatform/tw5-bluesky-comments]]
+* Move the demo to the default TiddlyWiki theme
+
 !! 1.0.0
 
 * Add [[giscus|https://giscus.app/]] (~GitHub Discussions) as the recommended service. utterances is still supported and stays in use until the giscus fields are filled in, so existing wikis keep working after the update
