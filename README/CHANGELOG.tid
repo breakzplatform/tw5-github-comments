@@ -4,6 +4,11 @@ type: text/vnd.tiddlywiki
 
 I'm trying to follow the rules of [[Semantic Versioning|https://semver.org/]].
 
+!! 2.0.1
+
+* Showing the comments no longer scrolls the page; only the toolbar button scrolls to them, so a wiki that opens with the comments shown doesn't jump down on load
+* The toolbar button now scrolls to the comments on older cores such as 5.1.23
+
 !! 2.0.0
 
 * Rename the Control Panel tab to "GitHub comments"
