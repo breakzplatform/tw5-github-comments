@@ -3,7 +3,7 @@
 	"description": "GitHub comments with giscus or utterances",
 	"author": "breakzplatform",
 	"version": "2.0.1",
-	"license": "MIT",
+	"license": "Apache-2.0",
 	"core-version": ">=5.1.23",
 	"source": "https://github.com/breakzplatform/tw5-github-comments",
 	"plugin-type": "plugin",

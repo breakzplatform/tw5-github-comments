@@ -50,4 +50,4 @@ This plugin is based on [@bimlas](https://github.com/bimlas)'s [tw5-disqus plugi
 
 ## License
 
-[MIT](LICENSE)
+[Apache-2.0](LICENSE). See also [NOTICE](NOTICE).
